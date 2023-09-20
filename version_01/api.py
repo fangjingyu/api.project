@@ -9,7 +9,7 @@ import openpyxl
 # print(res)
 
 # 写入表单的操作
-# res = sh.cell(row=15, column=15, value="python")
+# res = sh.cell(row=20, column=20, value="python")
 
 class HandleExcle:
     def __init__(self, filename, sheetname):
@@ -51,6 +51,12 @@ class HandleExcle:
 if __name__ == '__main__':
     excle = HandleExcle(r"C:\Projects\Python_01\py_01_day26project\datas\case接口.xlsx", "login")
     res = excle.read_data()
+<<<<<<< HEAD
 print(res)
 # 恢复原来的版本
 
+=======
+    print(res)
+    # 第一次修改
+    # 第二次修改
+>>>>>>> a983fb63663b24a1bb6f38da837f6e5518c6b9f4
