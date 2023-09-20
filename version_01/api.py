@@ -51,4 +51,6 @@ class HandleExcle:
 if __name__ == '__main__':
     excle = HandleExcle(r"C:\Projects\Python_01\py_01_day26project\datas\case接口.xlsx", "login")
     res = excle.read_data()
-    print(res)
+print(res)
+# 恢复原来的版本
+
